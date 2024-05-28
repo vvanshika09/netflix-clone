@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/assets/DevSecOps.png" alt="Logo" width="100%" height="100%">
+  <img src="./public/assets/DevSecOps.jpg" alt="Logo" width="100%" height="100%">
 
   <br>
   <a href="http://netflix-clone-with-tmdb-using-react-mui.vercel.app/">
@@ -190,7 +190,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/vvanshika09/netflix-clone.git'
             }
         }
         stage("Sonarqube Analysis") {
@@ -280,7 +280,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/vvanshika09/netflix-clone.git'
             }
         }
         stage("Sonarqube Analysis "){
